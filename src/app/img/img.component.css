@@ -1,0 +1,14 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:50px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 25px;
+}

@@ -1,0 +1,14 @@
+<div class="slidecontainer"> 
+  <nouislider [connect]="true" [min]="0" [max]="100"  [(ngModel)]="someRange"></nouislider>
+  <div class="sliderContainerText">
+    <span class="lessRelevant" (click)="lessRelevant()">LESS RELEVANT</span>
+    <span class="relevant" (click)="relevant()">RELEVANT</span>
+    <span class="veryRelevant" (click)="veryRelevant()">VERY RELEVANT</span>
+  </div>
+  <div class="try" (click)="tryAgain()">
+    <button>TRY AGAIN</button>
+  </div>
+</div>
+
+
+
